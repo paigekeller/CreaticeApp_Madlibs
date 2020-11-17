@@ -13,6 +13,9 @@
 		A05F227E255B30A400C4532F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05F227C255B30A400C4532F /* Main.storyboard */; };
 		A05F2280255B30A900C4532F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05F227F255B30A900C4532F /* Assets.xcassets */; };
 		A05F2283255B30A900C4532F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05F2281255B30A900C4532F /* LaunchScreen.storyboard */; };
+		A0FEC48B255B31A700C8B25D /* 2ndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FEC48A255B31A700C8B25D /* 2ndViewController.swift */; };
+		A0FEC48F255C209200C8B25D /* MadlibsPhrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FEC48E255C209200C8B25D /* MadlibsPhrase.swift */; };
+		A0FEC491255C232400C8B25D /* Phrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FEC490255C232400C8B25D /* Phrase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A05F227F255B30A900C4532F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A05F2282255B30A900C4532F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A05F2284255B30A900C4532F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0FEC48A255B31A700C8B25D /* 2ndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ndViewController.swift; sourceTree = "<group>"; };
+		A0FEC48E255C209200C8B25D /* MadlibsPhrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadlibsPhrase.swift; sourceTree = "<group>"; };
+		A0FEC490255C232400C8B25D /* Phrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				A05F2278255B30A400C4532F /* SceneDelegate.swift */,
 				A05F227A255B30A400C4532F /* ViewController.swift */,
 				A05F227C255B30A400C4532F /* Main.storyboard */,
+				A0FEC48A255B31A700C8B25D /* 2ndViewController.swift */,
+				A0FEC48E255C209200C8B25D /* MadlibsPhrase.swift */,
+				A0FEC490255C232400C8B25D /* Phrase.swift */,
 				A05F227F255B30A900C4532F /* Assets.xcassets */,
 				A05F2281255B30A900C4532F /* LaunchScreen.storyboard */,
 				A05F2284255B30A900C4532F /* Info.plist */,
@@ -99,6 +108,7 @@
 				TargetAttributes = {
 					A05F2272255B30A400C4532F = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -138,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FEC491255C232400C8B25D /* Phrase.swift in Sources */,
 				A05F227B255B30A400C4532F /* ViewController.swift in Sources */,
+				A0FEC48B255B31A700C8B25D /* 2ndViewController.swift in Sources */,
+				A0FEC48F255C209200C8B25D /* MadlibsPhrase.swift in Sources */,
 				A05F2277255B30A400C4532F /* AppDelegate.swift in Sources */,
 				A05F2279255B30A400C4532F /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMTB6V6429;
 				INFOPLIST_FILE = "_CreativeApps_called Mod4_CreativeApp_MadlibsKellerP/Info.plist";
@@ -293,6 +307,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "clc.-CreativeApps-called-Mod4-CreativeApp-MadlibsKellerP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMTB6V6429;
 				INFOPLIST_FILE = "_CreativeApps_called Mod4_CreativeApp_MadlibsKellerP/Info.plist";
